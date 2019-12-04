@@ -1,0 +1,7 @@
+Euclid’s Algorithm for GCD
+- Start with 2 positive numbers a and b
+    - If a < b swap a and b.
+    - Copy b as the next a.
+    - Compute the next b as (a - b)
+    - If b is not zero, return to step 1
+    - The GCD is the final a.
